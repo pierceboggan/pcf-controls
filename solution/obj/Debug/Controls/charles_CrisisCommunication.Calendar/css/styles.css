@@ -1,0 +1,41 @@
+html {
+  background-color: blue;
+}
+
+.Calendar {
+  border-radius: 5px;
+  padding: 30px;
+}
+
+.Calendar month {
+  width: 300px;
+  user-select: none;
+}
+
+.Calendar header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.Calendar week {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Calendar days_of_week {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Calendar week-day {
+  display: inline-block;
+  width: 40px;
+  text-align: center;
+  line-height: 30px;
+  opacity: 0.5;
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+}
