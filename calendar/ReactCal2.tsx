@@ -6,10 +6,11 @@ export interface ICalendar2 {
   weekStartsOn: number;
 }
   
-export const CalendarAnchor2: React.FunctionComponent<ICalendar2> = props => {
 
+export const CalendarAnchor2: React.FunctionComponent<ICalendar2> = props => {
+  
   return (
-    <ReactCalendar  />
+    <ReactCalendar></ReactCalendar>
   );
   
 };

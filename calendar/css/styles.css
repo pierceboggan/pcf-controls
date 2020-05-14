@@ -14,6 +14,10 @@
 	margin-bottom: 30px;
 }
 
+.calendar-week-day.is-selected.is-start_selection {
+  background-color: #008000;
+}
+
 .calendar-week,
 .calendar-days_of_week {
 	display: flex;
