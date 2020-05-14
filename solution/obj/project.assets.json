@@ -172,8 +172,8 @@
     },
     "calendar/1.0.0": {
       "type": "project",
-      "path": "../calendar/calendar.pcfproj",
-      "msbuildProject": "../calendar/calendar.pcfproj"
+      "path": "../calendar.pcfproj",
+      "msbuildProject": "../calendar.pcfproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -214,8 +214,8 @@
       "frameworks": {
         "net462": {
           "projectReferences": {
-            "C:\\Users\\piboggan\\Documents\\GitHub\\pcf-controls\\calendar\\calendar.pcfproj": {
-              "projectPath": "C:\\Users\\piboggan\\Documents\\GitHub\\pcf-controls\\calendar\\calendar.pcfproj"
+            "C:\\Users\\piboggan\\Documents\\GitHub\\pcf-controls\\calendar.pcfproj": {
+              "projectPath": "C:\\Users\\piboggan\\Documents\\GitHub\\pcf-controls\\calendar.pcfproj"
             }
           }
         }

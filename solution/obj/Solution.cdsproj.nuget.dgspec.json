@@ -4,14 +4,14 @@
     "C:\\Users\\piboggan\\Documents\\GitHub\\pcf-controls\\solution\\Solution.cdsproj": {}
   },
   "projects": {
-    "C:\\Users\\piboggan\\Documents\\GitHub\\pcf-controls\\calendar\\calendar.pcfproj": {
+    "C:\\Users\\piboggan\\Documents\\GitHub\\pcf-controls\\calendar.pcfproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\piboggan\\Documents\\GitHub\\pcf-controls\\calendar\\calendar.pcfproj",
+        "projectUniqueName": "C:\\Users\\piboggan\\Documents\\GitHub\\pcf-controls\\calendar.pcfproj",
         "projectName": "calendar",
-        "projectPath": "C:\\Users\\piboggan\\Documents\\GitHub\\pcf-controls\\calendar\\calendar.pcfproj",
+        "projectPath": "C:\\Users\\piboggan\\Documents\\GitHub\\pcf-controls\\calendar.pcfproj",
         "packagesPath": "C:\\Users\\piboggan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\piboggan\\Documents\\GitHub\\pcf-controls\\calendar\\obj\\",
+        "outputPath": "C:\\Users\\piboggan\\Documents\\GitHub\\pcf-controls\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -85,8 +85,8 @@
         "frameworks": {
           "net462": {
             "projectReferences": {
-              "C:\\Users\\piboggan\\Documents\\GitHub\\pcf-controls\\calendar\\calendar.pcfproj": {
-                "projectPath": "C:\\Users\\piboggan\\Documents\\GitHub\\pcf-controls\\calendar\\calendar.pcfproj"
+              "C:\\Users\\piboggan\\Documents\\GitHub\\pcf-controls\\calendar.pcfproj": {
+                "projectPath": "C:\\Users\\piboggan\\Documents\\GitHub\\pcf-controls\\calendar.pcfproj"
               }
             }
           }
