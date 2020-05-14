@@ -1,19 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <manifest>
   <control namespace="CrisisCommunication" constructor="Calendar" version="0.0.1" display-name-key="Calendar" description-key="Calendar description" control-type="standard">
-    <!-- property node identifies a specific, configurable piece of data that the control expects from CDS -->
-    <property name="sampleProperty" display-name-key="Property_Display_Key" description-key="Property_Desc_Key" of-type="SingleLine.Text" usage="bound" required="true" />
-    <!-- 
-      Property node's of-type attribute can be of-type-group attribute. 
-      Example:
-      <type-group name="numbers">
-        <type>Whole.None</type>
-        <type>Currency</type>
-        <type>FP</type>
-        <type>Decimal</type>
-      </type-group>
-      <property name="sampleProperty" display-name-key="Property_Display_Key" description-key="Property_Desc_Key" of-type-group="numbers" usage="bound" required="true" />
-    -->
+    <property name="minNumberOfWeek" display-name-key="minNumberOfWeek" description-key="Sets the minimum number of weeks." of-type="Whole.None" usage="input" required="true" default-value="" />
+    <property name="weekStartsOn" display-name-key="weekStartsOn" description-key="Sets the day the week starts on." of-type="Whole.None" usage="input" required="false" default-value="" />
+    
     <resources>
       <code path="index.ts" order="1"/>
     </resources>

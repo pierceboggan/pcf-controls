@@ -1,18 +1,18 @@
 import * as React from 'react';
-import Calendar from 'react-calendar';
-import './Styling.less';
+import SimpleReactCalendar from 'simple-react-calendar';
 
 export interface ICalendar {
-    // These are set based on the toggles shown above the examples (not needed in real code)
-
-  }
+  minNumberOfWeeks: number;
+  weekStartsOn: number;
+}
   
-   
+export const CalendarAnchor: React.FunctionComponent<ICalendar> = props => {
   
-  export const CalendarAnchor: React.FunctionComponent<ICalendar> = props => {
+  return (
+    <SimpleReactCalendar
+      activeMonth={new Date()}
+      minNumberOfWeek={props.minNumberOfWeeks}
+      weekStartsOn={props.weekStartsOn} />
+  );
   
-    return (
-        <Calendar />
-    );
-  
-  };
+};
