@@ -1,19 +1,19 @@
-2020-05-14 02:40:03.689 - Info	
+2020-05-14 02:55:04.869 - Info	
 Packing C:\Users\piboggan\Documents\GitHub\pcf-controls\solution\obj\Debug\ to bin\Debug\Solution.zip
 
-2020-05-14 02:40:03.708 - Info	Processing Component: Entities
-2020-05-14 02:40:03.710 - Info	Processing Component: Roles
-2020-05-14 02:40:03.711 - Info	Processing Component: Workflows
-2020-05-14 02:40:03.711 - Info	Processing Component: FieldSecurityProfiles
-2020-05-14 02:40:03.712 - Info	Processing Component: Templates
-2020-05-14 02:40:03.712 - Info	Processing Component: EntityMaps
-2020-05-14 02:40:03.712 - Info	Processing Component: EntityRelationships
-2020-05-14 02:40:03.721 - Info	Processing Component: OrganizationSettings
-2020-05-14 02:40:03.722 - Info	Processing Component: optionsets
-2020-05-14 02:40:03.722 - Info	Processing Component: CustomControls
-2020-05-14 02:40:03.737 - Info	 - CrisisCommunication.Calendar
-2020-05-14 02:40:03.775 - Info	Processing Component: SolutionPluginAssemblies
-2020-05-14 02:40:03.776 - Info	Processing Component: EntityDataProviders
-2020-05-14 02:40:03.830 - Info	
+2020-05-14 02:55:04.877 - Info	Processing Component: Entities
+2020-05-14 02:55:04.879 - Info	Processing Component: Roles
+2020-05-14 02:55:04.881 - Info	Processing Component: Workflows
+2020-05-14 02:55:04.881 - Info	Processing Component: FieldSecurityProfiles
+2020-05-14 02:55:04.881 - Info	Processing Component: Templates
+2020-05-14 02:55:04.882 - Info	Processing Component: EntityMaps
+2020-05-14 02:55:04.882 - Info	Processing Component: EntityRelationships
+2020-05-14 02:55:04.886 - Info	Processing Component: OrganizationSettings
+2020-05-14 02:55:04.886 - Info	Processing Component: optionsets
+2020-05-14 02:55:04.886 - Info	Processing Component: CustomControls
+2020-05-14 02:55:04.898 - Info	 - CrisisCommunication.Calendar
+2020-05-14 02:55:04.933 - Info	Processing Component: SolutionPluginAssemblies
+2020-05-14 02:55:04.934 - Info	Processing Component: EntityDataProviders
+2020-05-14 02:55:04.987 - Info	
 Unmanaged Pack complete.
 

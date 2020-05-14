@@ -1,2 +1,1 @@
-C:\Users\piboggan\Documents\GitHub\pcf-controls\solution\obj\Debug\Solution.cdsprojAssemblyReference.cache
 C:\Users\piboggan\Documents\GitHub\pcf-controls\solution\obj\Debug\Solution.cdsproj.CoreCompileInputs.cache

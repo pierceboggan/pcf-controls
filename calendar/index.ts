@@ -2,10 +2,11 @@ import {IInputs, IOutputs} from "./generated/ManifestTypes";
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import { CalendarAnchor, ICalendar } from './ReactCalendar';
+import { CalendarAnchor2, ICalendar2 } from './ReactCal2';
 
 export class Calendar implements ComponentFramework.StandardControl<IInputs, IOutputs> {
 	private container: HTMLDivElement;
-	private props: ICalendar = {
+	private props: ICalendar2 = {
 		minNumberOfWeeks: 4,
 		weekStartsOn: 1
 	};
@@ -48,8 +49,12 @@ export class Calendar implements ComponentFramework.StandardControl<IInputs, IOu
 		this.props.minNumberOfWeeks = context.parameters.minNumberOfWeek.raw!;
 		this.props.weekStartsOn = context.parameters.weekStartsOn.raw!;
 		// Add code to update control view
+		// ReactDOM.render(
+		// 	React.createElement(CalendarAnchor, this.props), this.container
+		// );
+
 		ReactDOM.render(
-			React.createElement(CalendarAnchor, this.props), this.container
+			React.createElement(CalendarAnchor2, this.props), this.container
 		);
 	}
 

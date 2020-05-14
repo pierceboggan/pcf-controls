@@ -11,8 +11,8 @@
   "dependencies": {
     "@types/node": "^10.12.18",
     "@types/powerapps-component-framework": "^1.2.0",
-    "simple-react-calendar": "^2.2.1",
-    "styl": "^0.2.9"
+    "react-calendar": "^3.0.1",
+    "simple-react-calendar": "^2.2.1"
   },
   "devDependencies": {
     "pcf-scripts": "^1",
