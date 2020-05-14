@@ -6,6 +6,7 @@
     
     <resources>
       <code path="index.ts" order="1"/>
+      <css path="css/styles.css" order="1"/>
     </resources>
   </control>
 </manifest>

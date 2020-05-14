@@ -1,7 +1,14 @@
 import {IInputs, IOutputs} from "./generated/ManifestTypes";
+import * as React from 'react';
+import * as ReactDOM from 'react-dom';
+import { CalendarAnchor, ICalendar } from './ReactCalendar';
 
-export class MyControl implements ComponentFramework.StandardControl<IInputs, IOutputs> {
-
+export class Calendar implements ComponentFramework.StandardControl<IInputs, IOutputs> {
+	private container: HTMLDivElement;
+	private props: ICalendar = {
+		minNumberOfWeeks: 4,
+		weekStartsOn: 1
+	};
 	/**
 	 * Empty constructor.
 	 */
@@ -21,6 +28,14 @@ export class MyControl implements ComponentFramework.StandardControl<IInputs, IO
 	public init(context: ComponentFramework.Context<IInputs>, notifyOutputChanged: () => void, state: ComponentFramework.Dictionary, container:HTMLDivElement)
 	{
 		// Add control initialization code
+		this.container = container;
+
+		this.props.minNumberOfWeeks = context.parameters.minNumberOfWeek.raw!;
+		this.props.weekStartsOn = context.parameters.weekStartsOn.raw!;
+		// Add code to update control view
+		ReactDOM.render(
+			React.createElement(CalendarAnchor, this.props), this.container
+		);
 	}
 
 
@@ -30,7 +45,12 @@ export class MyControl implements ComponentFramework.StandardControl<IInputs, IO
 	 */
 	public updateView(context: ComponentFramework.Context<IInputs>): void
 	{
+		this.props.minNumberOfWeeks = context.parameters.minNumberOfWeek.raw!;
+		this.props.weekStartsOn = context.parameters.weekStartsOn.raw!;
 		// Add code to update control view
+		ReactDOM.render(
+			React.createElement(CalendarAnchor, this.props), this.container
+		);
 	}
 
 	/** 
@@ -49,5 +69,6 @@ export class MyControl implements ComponentFramework.StandardControl<IInputs, IO
 	public destroy(): void
 	{
 		// Add code to cleanup control if necessary
+		ReactDOM.unmountComponentAtNode(this.container);
 	}
 }
