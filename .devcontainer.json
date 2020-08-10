@@ -1,0 +1,6 @@
+{
+  // Install Teams extension
+  "extensions": [
+    "danish-naglekar.pcf-builder"
+  ]
+}
